@@ -1,4 +1,4 @@
-# 💼 Data Jobs Market Analysis & Salary Prediction
+# 💼 Data Science Jobs Market Analysis & Salary Prediction
 
 This project analyzes the data jobs market using **Power BI dashboards** and predicts **data scientist salaries** using a Machine Learning model in **Python**.
 
