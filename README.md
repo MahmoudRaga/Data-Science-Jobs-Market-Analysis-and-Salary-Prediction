@@ -1,4 +1,78 @@
-# Data-science-jobs-Salary-Prediction
-In the recent period, the demand for data scientists has increased due to the availability of data and knowledge of its importance, and with the strong demand for this field, we created a machine learning model to predict the average salaries of data scientists in countries and companies around the world.
-Which has an efficiency of up to 99%
-https://www.kaggle.com/datasets/hummaamqaasim/jobs-in-data
+# 💼 Data Jobs Market Analysis & Salary Prediction
+
+This project analyzes the data jobs market using **Power BI dashboards** and predicts **data scientist salaries** using a Machine Learning model in **Python**.
+
+---
+
+## 📊 Power BI Dashboard
+
+We built a comprehensive 3-page dashboard from a dataset containing thousands of data job postings. Each page explores a different business perspective:
+
+### 🔹 Page 1: General Overview
+- Total number of job listings
+- Number of unique job titles and companies
+- Top 10 countries hiring the most
+- Most demanded work settings and employment types
+
+### 🔹 Page 2: Salary & Role Insights
+- Average salary by:
+  - Work setting (remote/in-office/hybrid)
+  - Experience level
+  - Employment type
+- Comparison of average salary across top job titles
+
+### 🔹 Page 3: Job Market Exploration
+- Top 10 job titles
+- Distribution by employment type, experience, and location
+- Dynamic filters:
+  - Experience Level
+  - Employment Type
+  - Work Setting
+  - Company Location
+  - Job Title (searchable)
+
+Tooltips and filters were added to enhance interactivity.
+
+---
+
+## 📈 Salary Prediction – Jupyter Notebook
+
+The notebook (`Data science jobs Salary Prediction.ipynb`) contains a machine learning pipeline to predict **data scientist salaries** based on job features.
+
+### 🔍 Features used:
+- Job Title
+- Experience Level
+- Employment Type
+- Work Setting
+- Company Location
+- Employee Residence
+
+### 🔧 Model:
+- Preprocessing: Label Encoding, Data Standarization , 
+- Model: CatBoostRegressor (can be changed to XGBoost or other models)
+- Evaluation: MAE, R² Score
+
+### 📁 Files:
+- `jobs_in_data.csv`: The original dataset used for both dashboard and modeling.
+- `Data-science-jobs-Salary-Prediction.ipynb`: The notebook containing preprocessing, model training, and evaluation.
+- `PowerBI_Dashboard.pbix`: The dashboard file (optional if shared).
+- `README.md`: You are here.
+
+---
+
+## 🚀 How to Run the Notebook
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/MahmoudRaga/Data-science-jobs-Salary-Prediction/blob/main/Data%20science%20jobs%20Salary%20Prediction.ipynb
+cd Data science jobs Salary Prediction.ipynb
+
+# 2. Create a virtual environment (optional)
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate on Windows
+
+# 3. Install dependencies
+pip install -r requirements.txt
+
+# 4. Run the notebook
+jupyter notebook Data science jobs Salary Prediction.ipynb
