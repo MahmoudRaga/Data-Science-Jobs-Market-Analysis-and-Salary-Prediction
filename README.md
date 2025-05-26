@@ -69,6 +69,7 @@ The notebook (`Data science jobs Salary Prediction.ipynb`) contains a machine le
 
 **Mahmoud Ragab**  
 Data Analyst | ML Engineer
+
 📬 Email: mahmoudragabsaber2001@gmail.com  
 🔗 [GitHub](https://github.com/MahmoudRaga) | [LinkedIn](https://www.linkedin.com/in/mahmoud-ragab-0842511b7/)
 
