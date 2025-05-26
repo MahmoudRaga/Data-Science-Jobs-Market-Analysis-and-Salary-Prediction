@@ -2,6 +2,8 @@
 
 This project analyzes the data jobs market using **Power BI dashboards** and predicts **data scientist salaries** using a Machine Learning model in **Python**.
 
+![](https://github.com/MahmoudRaga/Data-Science-Jobs-Market-Analysis-and-Salary-Prediction/blob/main/Cover.png)
+
 ---
 
 ## 📊 Power BI Dashboard
@@ -13,14 +15,16 @@ We built a comprehensive 3-page dashboard from a dataset containing thousands of
 - Number of unique job titles and companies
 - Top 10 countries hiring the most
 - Most demanded work settings and employment types
-
+![](https://github.com/MahmoudRaga/Data-Science-Jobs-Market-Analysis-and-Salary-Prediction/blob/main/Page1.png)
+---
 ### 🔹 Page 2: Salary & Role Insights
 - Average salary by:
   - Work setting (remote/in-office/hybrid)
   - Experience level
   - Employment type
 - Comparison of average salary across top job titles
-
+![](https://github.com/MahmoudRaga/Data-Science-Jobs-Market-Analysis-and-Salary-Prediction/blob/main/Page2.png)
+---
 ### 🔹 Page 3: Job Market Exploration
 - Top 10 job titles
 - Distribution by employment type, experience, and location
@@ -30,7 +34,8 @@ We built a comprehensive 3-page dashboard from a dataset containing thousands of
   - Work Setting
   - Company Location
   - Job Title (searchable)
-
+![](https://github.com/MahmoudRaga/Data-Science-Jobs-Market-Analysis-and-Salary-Prediction/blob/main/Page3.png)
+---
 Tooltips and filters were added to enhance interactivity.
 
 ---
@@ -57,6 +62,15 @@ The notebook (`Data science jobs Salary Prediction.ipynb`) contains a machine le
 - `Data-science-jobs-Salary-Prediction.ipynb`: The notebook containing preprocessing, model training, and evaluation.
 - `PowerBI_Dashboard.pbix`: The dashboard file (optional if shared).
 - `README.md`: You are here.
+
+---
+
+## 🙋 Author
+
+**Mahmoud Ragab**  
+Data Analyst | ML Engineer
+📬 Email: mahmoudragabsaber2001@gmail.com  
+🔗 [GitHub](https://github.com/MahmoudRaga) | [LinkedIn](https://www.linkedin.com/in/mahmoud-ragab-0842511b7/)
 
 ---
 
